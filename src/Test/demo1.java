@@ -35,6 +35,7 @@ public class demo1 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		// 我修改了这个地方
 	}
 
 }
