@@ -10,7 +10,6 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 
-
   <servlet>
     <servlet-name>HelloWorld1</servlet-name>
     <servlet-class>Test.HelloWorld</servlet-class>
@@ -26,7 +25,25 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloForm</servlet-name>
-    <url-pattern>/form</url-pattern>
+    <url-pattern>/HelloForm</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReadCookies</servlet-name>
+    <servlet-class>Test.ReadCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadCookies</servlet-name>
+    <url-pattern>/read</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SessionTrack</servlet-name>
+    <servlet-class>Test.SessionTrack</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionTrack</servlet-name>
+    <url-pattern>/track</url-pattern>
   </servlet-mapping>
 
 </web-app>
